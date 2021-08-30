@@ -1,0 +1,83 @@
+@import "./variables";
+@import "./componentes/footer";
+@import "./componentes/header";
+@import "./pages/secciones";
+@import "./pages/home";
+@import "./pages/galeria";
+
+* {
+  list-style-type: none;
+}
+.fondo {
+  background-color: $color-primario;
+}
+// main de todas las secciones
+h1,
+h2,
+h3,
+h4 {
+  color: #f18119;
+  font-family: $baseFont;
+}
+p {
+  font-family: $baseFont;
+  color: $colorTexto;
+}
+.hamburgesa {
+  display: none;
+}
+@media (max-width: 705px) {
+  .anteojos img {
+    border: 3px solid coral;
+    border-right: 3px solid coral;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .menuAbajo {
+    margin: 0;
+
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .menuAbajo a:hover {
+    color: coral;
+  }
+  .redesUp {
+    display: none;
+  }
+  .redesAbajo ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .video {
+    padding-top: 25px;
+    margin: 0;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  .piezas {
+    margin-left: 25px;
+    width: 300px;
+  }
+  .menu {
+    display: none;
+  }
+  .hamburgesa {
+    display: flex;
+    width: 50px;
+    height: 50px;
+  }
+}

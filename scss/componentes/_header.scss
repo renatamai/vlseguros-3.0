@@ -1,0 +1,11 @@
+@use "../variables";
+
+// nav
+.menu {
+  background-color: rgb(14, 14, 73);
+  font-family: "Times New Roman, Times, serif";
+
+  a:hover {
+    background-color: coral;
+  }
+}
