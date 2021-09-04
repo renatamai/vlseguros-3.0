@@ -144,68 +144,73 @@
             </li>
           </ul>
         </div>
-
-        <!--Menu hamburgesa-->
-        <div class="hamburgesa dropdown mb-4">
-          <button
-            class="btn btn-light dropdown-toggle"
-            type="button"
-            id="dropdownMenu2"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <i class="bi bi-list btn btn-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-list"
-                viewBox="0 0 16 16"
+        <!---Menu hamburgesa-->
+        <div class="hamburgesa">
+          <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                />
-              </svg>
-            </i>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="../index.html">Inicio</a>
+                <span class="navbar-toggler-icon"></span>
               </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="./proteccion.html"
-                  >Proteccion familiar</a
-                >
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="./capital.html">Armado de capital</a>
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="emprendimiento.html"
-                  >Proteccion de emprendimiento
-                </a>
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="./contacto.html">Contacto</a>
-              </button>
-            </li>
-            <li>
-              <button class="dropdown-item" type="button">
-                <a class="text-dark" href="./galeria.html">Galeria</a>
-              </button>
-            </li>
-          </ul>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Bienvenido
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="../index.html"
+                        >Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./proteccion.html"
+                        >Proteccion familiar
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./capital.html"
+                        >Armado de capital
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="emprendimiento.html"
+                        >Proteccion de emprendimiento
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./galeria.html">Galeria </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
       </header>
       <!--Main-->
