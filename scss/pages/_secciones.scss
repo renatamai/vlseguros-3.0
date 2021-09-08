@@ -3,7 +3,7 @@
 .lista {
   color: $colorTexto;
   font-family: $baseFont;
-  list-style-type: circle;
+  list-style: circle;
 }
 .video {
   border: 3px solid #f18119;
@@ -11,4 +11,7 @@
   margin-left: 300px;
   width: 900px;
   height: 450px;
+}
+.texto {
+  margin-top: 30px;
 }

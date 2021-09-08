@@ -13,7 +13,7 @@ footer {
 .lista {
   color: white;
   font-family: "Courgette", cursive;
-  list-style-type: circle; }
+  list-style: circle; }
 
 .video {
   border: 3px solid #f18119;
@@ -21,6 +21,9 @@ footer {
   margin-left: 300px;
   width: 900px;
   height: 450px; }
+
+.texto {
+  margin-top: 30px; }
 
 @use "../variables";
 .animate__animated {
@@ -36,9 +39,6 @@ footer {
 
 .galeria__todo img:hover {
   border: 5px solid #fff; }
-
-* {
-  list-style-type: none; }
 
 .fondo {
   background-color: #082381; }
@@ -56,6 +56,19 @@ p {
 
 .hamburgesa {
   display: none; }
+
+.eslogan {
+  margin-top: 2rem; }
+
+.menuAbajo {
+  margin-right: 2rem;
+  list-style-type: none; }
+
+.menuAbajo a:hover {
+  color: coral; }
+
+.redesAbajo {
+  margin-right: 2rem; }
 
 @media (max-width: 705px) {
   .anteojos img {
@@ -89,11 +102,17 @@ p {
     justify-content: center;
     border: none; }
   .piezas {
-    margin-left: 25px;
-    width: 300px; }
+    border: coral dashed; }
   .menu {
     display: none; }
   .hamburgesa {
     display: flex;
     width: 50px;
-    height: 50px; } }
+    height: 50px; }
+  .sitio {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-left: 2rem; }
+  .charlemos-texto h1 {
+    text-decoration: underline; } }
