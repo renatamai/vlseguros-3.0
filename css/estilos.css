@@ -70,10 +70,10 @@ p {
 .redesAbajo {
   margin-right: 2rem; }
 
+/*MEDIA QUIERIE*/
 @media (max-width: 705px) {
   .anteojos img {
-    border: 3px solid coral;
-    border-right: 3px solid coral; }
+    display: none; }
   h1 {
     display: flex;
     justify-content: center; }
